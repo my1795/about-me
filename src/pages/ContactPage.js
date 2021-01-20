@@ -1,11 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router , Route, Link} from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
-import {Row , Col} from 'react-bootstrap';
 
-function ContactPage(props){
+function ContactPage(props) {
     return (
-        <p> ContactPage Test</p>
+        <p><a href="mailto:myldrm1025@gmail.com">Ping Me!</a></p>
     );
 }
+
 export default ContactPage;
